@@ -1,0 +1,36 @@
+.textFieldContainer{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    gap: 10px;
+}
+.textAboveContainer{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+    gap: 5px;
+}
+.textAbove{
+    color: var(--black-color);
+    padding: 0;
+    margin: 0;
+    font-size: clamp(10px, 13px, 1rem);
+}
+.requiredDot{
+    color: red;
+}
+.textInput{
+    height: clamp(20px,40px,50px);
+    width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #E6EBE8;
+    box-sizing: border-box;
+    color: var(--black-color);
+    outline: none;
+}
+.textInput:focus{
+    outline: none;
+}

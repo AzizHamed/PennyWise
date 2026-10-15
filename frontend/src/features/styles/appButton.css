@@ -1,0 +1,11 @@
+.appButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    height: clamp(40px,52px,60px);
+}

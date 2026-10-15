@@ -1,0 +1,25 @@
+.lineChartContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 18px;
+    border: 1px solid #E6EBE8;
+}
+.linechartTitleAndDescriptionContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.chartContainer8{
+    display: grid;
+    grid-template-columns: minmax(32px, 1fr) repeat(6, minmax(0, 1fr));
+    gap: clamp(4px, 2vw, 16px);
+    height: 100%;
+}
+.chartNumbersContainer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}

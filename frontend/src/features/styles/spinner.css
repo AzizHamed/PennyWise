@@ -1,0 +1,9 @@
+.loading-spinner {
+  color: #333;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 6px solid silver; 
+  border-top: 6px solid #3498db; 
+  animation: spin 1s linear infinite;
+}

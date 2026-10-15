@@ -1,0 +1,27 @@
+.signupPageContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+}
+
+@media (max-width: 1000px) {
+    .signupPageContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
+.signupFormContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 64px;
+    align-items: center;
+
+}
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    align-items: center;
+}

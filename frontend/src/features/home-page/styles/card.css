@@ -1,0 +1,27 @@
+.amountsContainer{
+    background-color: white;    
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 22px 40px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: clamp(40px,42px,44px);
+    width: clamp(40px,42px,44px);
+    background-color: #E8F3ED;
+    border-radius: 12px;   
+}

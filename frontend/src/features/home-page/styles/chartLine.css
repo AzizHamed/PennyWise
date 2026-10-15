@@ -1,0 +1,26 @@
+.chartLineContainer{
+    height: 100%;   
+    width: min(100%, 42px);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.chartNumber{
+    font-size: 10px;
+    color: var(--background-color);
+}
+.chartNumbersContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.greenPart{
+    width: 100%;
+    border-radius: 10px;
+}
+.chartLineContainerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}

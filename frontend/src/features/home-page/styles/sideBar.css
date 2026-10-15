@@ -1,0 +1,54 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+@media(max-width : 1000px){
+    .homePageContiner{
+        grid-template-columns: 1fr;
+    }
+
+    .sideBar{
+        display: none;
+    }
+}
+
+        
+        
+.logoSideBar{
+    padding: 2px 16px;
+}
+.sideBarItemsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;   
+}
+.userInfoContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.userImage{
+    border-radius: 50%;
+}
+
+.nameText{
+    font-size: clamp(11px,13px,15px);
+    color: var(--black-color);
+}
+.accountText{
+    font-size: clamp(10px,11px,12px);
+    font-weight: 200;
+    color: var(--background-color);
+}
+
+.logoAnSideBarItemsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}

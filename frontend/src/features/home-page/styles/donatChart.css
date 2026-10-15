@@ -1,0 +1,74 @@
+.donatChartContainer{
+    background-color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-radius: 18px;
+    border: 1px solid #E6EBE8;
+}
+.titleContainerDonat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .donatContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
+.donatContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 127px;
+    width: 127px;
+    background-color: #F5F7F9;
+}
+.donatCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    gap: 5px;
+    border-radius: 50%;
+    flex-direction: column;
+}
+.donatPercentage{
+    color: var(--black-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+.ofBudgetText{
+    color: #98A19B;
+    font-size: 10px;
+}
+.donatChart{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 127px;
+  width: 127px;
+  flex-shrink: 0;
+}
+.categorySpends{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+    width: 100%;
+}
+.donatAndSpendingCatgsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px  solid #E6EBE8;
+}

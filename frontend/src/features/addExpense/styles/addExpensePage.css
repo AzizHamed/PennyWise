@@ -1,0 +1,57 @@
+.addExpensePage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAFB;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+.formAddExpense{
+    padding: 40px;
+    display: flex;
+    width: 50%;
+    gap: 28px;
+    flex-shrink: 0;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #E5E7EB;
+}
+.catgAndDateContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 24px;
+    align-items: center;
+}
+.select {
+  height: clamp(50px, 6vh, 80px);
+  width: 100%;
+  height: 40px;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.select:focus{
+    outline: none;
+    border: 1px solid var(--primary-color);
+}
+.selectContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.amountTextField{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+}
+.selectAboveText{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}

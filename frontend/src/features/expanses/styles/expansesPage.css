@@ -1,0 +1,52 @@
+.expansesPageContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px 40px;
+    background-color: #F5F6F7;
+    overflow-y: auto;
+}
+.titleAndSubtitleContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cardsContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 15px;
+}
+/* 
+@media (max-width: 1000px) {
+    .cardsContainer{
+
+    }
+} */
+.filterArea{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px;
+    background-color: white;
+}
+.filterContainer{
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr 1fr;
+    gap: 10px;  
+    align-items: center;
+}
+
+.description1Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;   
+    box-sizing: border-box; 
+}
+.desStyle{
+    color: #69746D;
+    font-size: 12px;
+}

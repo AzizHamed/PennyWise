@@ -1,0 +1,104 @@
+.chartContainer{
+    background-color: white;
+    height: clamp(200px, 300px, 300px);
+    /* width: 100%; */
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 28px;
+    padding-block: 28px;
+    border-radius: 28px;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start  ; */
+}
+.upperText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;    
+}
+.monthGlance{
+    color: var(--black-color);
+    font-size: clamp(12px, 1rem, 18px);
+}
+.month{
+    color: var(--background-color);
+    font-size: clamp(10px, 0.8rem, 14px);
+}
+.middlePart{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: fit-content;
+    width: 100%;    
+}
+.monthlySpendingText{
+    color: var(--background-color);
+    font-size: clamp(10px, 0.8rem, 14px);
+
+}
+.amountContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+}
+.amount{
+    color: var(--black-color);
+    font-size: clamp(1.5rem, 30px,2.5rem);
+}
+.percentageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: #E8F3ED;
+    color: var(--primary-color);
+    gap: 3px;
+}
+.less{
+    font-size: clamp(10px, 0.8rem, 14px);
+}
+.chartColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.chart{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    justify-content: center;    
+}
+.chartBar{
+    height: clamp(110px,120px,130px);
+    width: clamp(40px,44px,48px);
+    display: flex;
+    align-items: flex-end;
+    background-color: #F5F7F9;
+}
+.chartFill{
+    background-color: #E8F3ED;
+    width: 100%;
+}
+
+.chartFillactive{
+    background-color: var(--primary-color);
+    width: 100%;
+}
+.bottomText{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    gap: 8px;
+    align-items: center;
+}
+.spendingText{
+    color: #69746D;
+    font-size: clamp(10px, 0.8rem, 14px);
+}

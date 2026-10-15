@@ -1,0 +1,23 @@
+.logoContainer{
+    height: clamp(30px,6vh,100px);
+    width: clamp(30px,6vh,100px);
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px
+}
+.appLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.appLogo p{
+    font-size: clamp(1rem,16px,2rem);
+    color: #17211B;
+    font-weight: 500;
+}

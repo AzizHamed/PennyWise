@@ -1,0 +1,20 @@
+.balanceContainer{
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 18px, 2rem);
+}   
+.text1{
+    color: var(--primary-color);
+    font-size: clamp(10px, 12px, 1rem);
+}
+
+.text2{
+    color: #17211B;
+    font-size: clamp(2.5rem, 40px, 3rem);
+    
+}
+
+.text3{
+    color: #69746D;
+    font-size: clamp(12px, 1rem, 1.2rem);
+}
