@@ -9,8 +9,9 @@ import { UserModule } from '../user/user.module.js';
   controllers: [AuthController],
   providers: [CredintialService, SessionAuthProvider],
   imports : [AuthenticationModule.forRoot({
+    allowInMemoryStorage : true,
     session : {
-      trustedOrigins : ['http://localhost:5173']
+      trustedOrigins : ['http://localhost:5173', 'https://pennywise-2-p8rm.onrender.com/']
     }
   }), UserModule]
 })
