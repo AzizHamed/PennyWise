@@ -12,7 +12,7 @@ const LoginHook = ({email, password} : {email:string, password:string}) => {
     setError(null);
 
     try {
-      const res = await fetch("http://localhost:3000/auth/signin", {
+      const res = await fetch("https://pennywise-backend-00zw.onrender.com/auth/signin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

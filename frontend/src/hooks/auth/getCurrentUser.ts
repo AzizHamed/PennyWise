@@ -12,7 +12,7 @@ const getCurrentUser = () => {
     setError(null);
 
     try {
-      const res = await fetch("http://localhost:3000/auth/me", {
+      const res = await fetch("https://pennywise-backend-00zw.onrender.com/auth/me", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

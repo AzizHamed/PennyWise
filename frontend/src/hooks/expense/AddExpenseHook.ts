@@ -12,7 +12,7 @@ const AddExpenseHook = () => {
     setError(null);
 
     try {
-      const res = await fetch("http://localhost:3000/expense", {
+      const res = await fetch("https://pennywise-backend-00zw.onrender.com/expense", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
