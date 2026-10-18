@@ -17,7 +17,7 @@ async function bootstrap() {
   );
   
   app.enableCors({
-    origin: 'http://localhost:5173',
+    origin: 'https://pennywise-2-p8rm.onrender.com',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
